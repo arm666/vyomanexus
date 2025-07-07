@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "WHERE INNOVATION AND EXPERTISE CONVERGE SEAMLESSLY",
     url: "https://vyomanexus.com.np",
     siteName: "VYOMA NEXUS PVT. LTD",
-    images: ["/favicon.ico"],
+    images: ["/logo.png"],
   },
 };
 
