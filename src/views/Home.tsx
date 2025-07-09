@@ -5,7 +5,6 @@ import Hero17 from "../components/hero17";
 import Features24 from "../components/features24";
 import CTA26 from "../components/cta26";
 import Features25 from "../components/features25";
-import Pricing14 from "../components/pricing14";
 import Steps2 from "../components/steps2";
 import Testimonial17 from "../components/testimonial17";
 import Contact10 from "../components/contact10";
