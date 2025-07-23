@@ -38,7 +38,6 @@ const Navbar8 = (props: Props) => {
             </a>
             <a
               href={props.link3Url}
-              target="_blank"
               rel="noreferrer noopener"
               className="navbar8-link31 thq-link thq-body-small"
             >
@@ -457,24 +456,24 @@ const Navbar8 = (props: Props) => {
 };
 
 Navbar8.defaultProps = {
-  linkUrlPage4: "https://www.teleporthq.io",
-  link2Url: "https://www.teleporthq.io",
+  linkUrlPage4: "#contact",
+  link2Url: "#services",
   page4Description: undefined,
   page1ImageSrc:
     "https://images.unsplash.com/photo-1649698145660-d30f91023b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2Nnw&ixlib=rb-4.1.0&q=80&w=1080",
   action1: undefined,
   page2ImageAlt: "Illustration of advanced communication systems",
   link2: undefined,
-  linkUrlPage2: "https://www.teleporthq.io",
+  linkUrlPage2: "#services",
   logoAlt: "Company logo",
   logoSrc: "/logo.png",
   page3ImageAlt: "Team photo of engineers and developers",
-  linkUrlPage1: "https://www.teleporthq.io",
+  linkUrlPage1: "#home",
   page1: undefined,
   link1: undefined,
   page4ImageSrc:
     "https://images.unsplash.com/photo-1740440095389-b9e9b627bb83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2N3w&ixlib=rb-4.1.0&q=80&w=1080",
-  linkUrlPage3: "https://www.teleporthq.io",
+  linkUrlPage3: "#about",
   page4: undefined,
   page2: undefined,
   link4: undefined,
@@ -487,11 +486,11 @@ Navbar8.defaultProps = {
   page2Description: undefined,
   link3: undefined,
   page3: undefined,
-  link1Url: "https://www.teleporthq.io",
+  link1Url: "#home",
   page3Description: undefined,
   page1ImageAlt: "Image of engineers working together",
   action2: undefined,
-  link3Url: "https://www.teleporthq.io",
+  link3Url: "#about",
 };
 
 interface Props {

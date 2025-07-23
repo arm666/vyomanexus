@@ -12,10 +12,10 @@ const Steps2 = (props: Props) => {
               Discover the Power of Our Products
             </h2>
             <p className="thq-body-large">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat.
+              Unlock the full potential of your needs with our innovative
+              product line. We've meticulously crafted each item to deliver
+              superior performance, unmatched reliability, and an exceptional
+              user experience.
             </p>
             <div className="steps2-actions">
               <button className="thq-button-animated thq-button-filled steps2-button">

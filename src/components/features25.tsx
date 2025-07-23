@@ -9,7 +9,7 @@ const Features25 = (props: Props) => {
   };
   const [activeTab, setActiveTab] = useState(0);
   return (
-    <div className="thq-section-padding">
+    <div id="services" className="thq-section-padding">
       <div className="features25-container2 thq-section-max-width">
         <div className="features25-tabs-menu">
           <div

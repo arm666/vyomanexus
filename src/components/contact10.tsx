@@ -8,7 +8,7 @@ const Contact10 = (props: Props) => {
     ...props,
   };
   return (
-    <div className="contact10-container1 thq-section-padding">
+    <div id="contact" className="contact10-container1 thq-section-padding">
       <div className="contact10-max-width thq-section-max-width">
         <div className="contact10-content1 thq-flex-row">
           <div className="contact10-content2">
@@ -32,7 +32,7 @@ const Contact10 = (props: Props) => {
           </div>
         </div>
         <div className="contact10-content3 thq-flex-row">
-          <div className="contact10-container2">
+          {/* <div className="contact10-container2">
             <img
               alt={props.location1ImageAlt}
               src={props.location1ImageSrc}
@@ -64,7 +64,7 @@ const Contact10 = (props: Props) => {
                 Get directions
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="contact10-container4">
             <img
               alt={props.location2ImageAlt}
@@ -74,20 +74,29 @@ const Contact10 = (props: Props) => {
             <h3 className="contact10-text14 thq-heading-3">
               {props.location2 ?? (
                 <Fragment>
-                  <span className="contact10-text21">Branch Office</span>
+                  <span className="contact10-text21">
+                    Have an Idea? Contact Us
+                  </span>
                 </Fragment>
               )}
             </h3>
             <p className="thq-body-large">
+              {props.location1Description ?? (
+                <Fragment>
+                  <span className="contact10-text19">vyomanexus@gmail.com</span>
+                </Fragment>
+              )}
+            </p>
+            <p className="thq-body-large">
               {props.location2Description ?? (
                 <Fragment>
                   <span className="contact10-text19">
-                    456 Innovation Avenue, Townsville, Country
+                    +977 9847651859, 9867608632
                   </span>
                 </Fragment>
               )}
             </p>
-            <div className="contact10-container5">
+            {/* <div className="contact10-container5">
               <a
                 href="https://example.com"
                 target="_blank"
@@ -96,7 +105,7 @@ const Contact10 = (props: Props) => {
               >
                 Get directions
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -106,12 +115,12 @@ const Contact10 = (props: Props) => {
 
 Contact10.defaultProps = {
   content1: undefined,
-  location2ImageSrc:
-    "https://images.unsplash.com/photo-1552926738-05d2482b9c36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2N3w&ixlib=rb-4.1.0&q=80&w=1080",
   location1ImageSrc:
-    "https://images.unsplash.com/photo-1640041124903-ebf2bb5933a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2OHw&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.unsplash.com/photo-1552926738-05d2482b9c36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2N3w&ixlib=rb-4.1.0&q=80&w=1080",
+  location2ImageSrc:
+    "https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=absolutvision-82TpEld0_e4-unsplash.jpg",
   location1Description: undefined,
-  location2ImageAlt: "Branch Office Image",
+  location2ImageAlt: "Office Image",
   heading1: undefined,
   location2Description: undefined,
   location1ImageAlt: "Headquarters Image",

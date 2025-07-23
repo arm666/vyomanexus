@@ -8,7 +8,7 @@ const Hero17 = (props: Props) => {
     ...props,
   };
   return (
-    <div className="hero17-header78">
+    <div id="home" className="hero17-header78">
       <div className="hero17-column thq-section-padding thq-section-max-width">
         <div className="hero17-content1">
           <h1 className="hero17-text1 thq-heading-1">

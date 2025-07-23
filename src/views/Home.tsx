@@ -10,6 +10,7 @@ import Testimonial17 from "../components/testimonial17";
 import Contact10 from "../components/contact10";
 import Footer4 from "../components/footer4";
 import "./home.css";
+import AboutUs from "../components/AboutUs";
 
 const Home = () => {
   return (
@@ -29,7 +30,7 @@ const Home = () => {
         }
         link2={
           <Fragment>
-            <span className="home-text102">#services</span>
+            <span className="home-text102">Services</span>
           </Fragment>
         }
         page1={
@@ -39,7 +40,7 @@ const Home = () => {
         }
         link1={
           <Fragment>
-            <span className="home-text104">#home</span>
+            <span className="home-text104">Home</span>
           </Fragment>
         }
         page4={
@@ -54,7 +55,7 @@ const Home = () => {
         }
         link4={
           <Fragment>
-            <span className="home-text107">#contact</span>
+            <span className="home-text107">Contact</span>
           </Fragment>
         }
         page1Description={
@@ -73,7 +74,7 @@ const Home = () => {
         }
         link3={
           <Fragment>
-            <span className="home-text110">#about</span>
+            <span className="home-text110">About</span>
           </Fragment>
         }
         page3={
@@ -123,6 +124,7 @@ const Home = () => {
           </Fragment>
         }
       ></Hero17>
+      <AboutUs />
       <Features24
         feature3Description={
           <Fragment>
@@ -388,9 +390,7 @@ const Home = () => {
         }
         location1Description={
           <Fragment>
-            <span className="home-text207">
-              123 Engineering Street, Cityville, Country
-            </span>
+            <span className="home-text207">vyomanexus@gmail.com</span>
           </Fragment>
         }
         heading1={
@@ -400,9 +400,7 @@ const Home = () => {
         }
         location2Description={
           <Fragment>
-            <span className="home-text209">
-              456 Innovation Avenue, Townsville, Country
-            </span>
+            <span className="home-text209">+977 9847651859, 9867608632</span>
           </Fragment>
         }
         location1={
@@ -412,7 +410,7 @@ const Home = () => {
         }
         location2={
           <Fragment>
-            <span className="home-text211">Branch Office</span>
+            <span className="home-text211">Have an Idea ? Contact Us</span>
           </Fragment>
         }
       ></Contact10>
