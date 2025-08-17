@@ -11,6 +11,7 @@ import Contact10 from "../components/contact10";
 import Footer4 from "../components/footer4";
 import "./home.css";
 import AboutUs from "../components/AboutUs";
+import { COMPANY_INFO } from "../constants";
 
 const Home = () => {
   return (
@@ -390,7 +391,7 @@ const Home = () => {
         }
         location1Description={
           <Fragment>
-            <span className="home-text207">vyomanexus@gmail.com</span>
+            <span className="home-text207">{COMPANY_INFO.email}</span>
           </Fragment>
         }
         heading1={

@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 import "./contact10.css";
+import { COMPANY_INFO } from "../constants";
 
 const Contact10 = (props: Props) => {
   props = {
@@ -83,7 +84,7 @@ const Contact10 = (props: Props) => {
             <p className="thq-body-large">
               {props.location1Description ?? (
                 <Fragment>
-                  <span className="contact10-text19">vyomanexus@gmail.com</span>
+                  <span className="contact10-text19">{COMPANY_INFO.email}</span>
                 </Fragment>
               )}
             </p>
