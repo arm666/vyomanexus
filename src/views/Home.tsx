@@ -401,7 +401,7 @@ const Home = () => {
         }
         location2Description={
           <Fragment>
-            <span className="home-text209">+977 9847651859, 9867608632</span>
+            <span className="home-text209"></span>
           </Fragment>
         }
         location1={

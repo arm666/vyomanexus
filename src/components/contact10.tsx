@@ -81,22 +81,19 @@ const Contact10 = (props: Props) => {
                 </Fragment>
               )}
             </h3>
-            <p className="thq-body-large">
-              {props.location1Description ?? (
-                <Fragment>
-                  <span className="contact10-text19">{COMPANY_INFO.email}</span>
-                </Fragment>
-              )}
+            <p className="thq-body-large flex flex-column gap-1">
+              <span className="contact10-text19">{COMPANY_INFO.email}</span>
+              <span className="contact10-text19">
+                {COMPANY_INFO.salesEmail}
+              </span>
             </p>
-            <p className="thq-body-large">
+            {/* <p className="thq-body-large">
               {props.location2Description ?? (
                 <Fragment>
-                  <span className="contact10-text19">
-                    +977 9847651859, 9867608632
-                  </span>
+                  <span className="contact10-text19"></span>
                 </Fragment>
               )}
-            </p>
+            </p> */}
             {/* <div className="contact10-container5">
               <a
                 href="https://example.com"

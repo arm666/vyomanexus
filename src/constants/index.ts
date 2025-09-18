@@ -1,6 +1,7 @@
 export const COMPANY_INFO = {
   name: "Vyomanexus",
   address: "Kathmandu, Nepal",
-  phone: "+977 9847651859, 9867608632",
+  phone: "",
   email: "info@vyomanexus.com.np",
+  salesEmail: "sales@vyomanexus.com.np",
 };
