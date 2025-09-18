@@ -293,12 +293,12 @@ const Home = () => {
         }
         author1Position={
           <Fragment>
-            <span className="home-text193">CEO, Tech Solutions Inc.</span>
+            <span className="home-text193">CEO, Marbi Tech Industries</span>
           </Fragment>
         }
         author1Name={
           <Fragment>
-            <span className="home-text194">John Smith</span>
+            <span className="home-text194">Er. Suraj Paudel</span>
           </Fragment>
         }
         author3Name={
