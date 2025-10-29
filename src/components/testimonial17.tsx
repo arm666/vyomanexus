@@ -237,7 +237,7 @@ Testimonial17.defaultProps = {
   author3Alt: "Image of Michael Brown",
   author1Name: undefined,
   author1Src:
-    "https://images.unsplash.com/photo-1697482620377-b945808a38ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2N3w&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://vyomanexus.com.np/suraj.webp",
   author3Name: undefined,
   review2: undefined,
   author2Name: undefined,
