@@ -2,7 +2,7 @@ const AboutUs = () => {
   return (
     <div id="about" className="thq-section-padding">
       <h2 className="thq-heading-2">About Us</h2>
-      <p
+      <div
         className="thq-body-large"
         style={{ gap: "var(--dl-layout-space-unit)", display: "grid" }}
       >
@@ -29,7 +29,7 @@ const AboutUs = () => {
           development, MATLAB design, electronic systems, and firefighting and
           rescue equipment.
         </div>
-      </p>
+      </div>
     </div>
   );
 };
