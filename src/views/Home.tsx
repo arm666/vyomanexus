@@ -110,7 +110,8 @@ const Home = () => {
         heading1={
           <Fragment>
             <span className="home-text116">
-              Innovative Engineering Solutions for a Connected World
+              Step into a realm where innovation and expertise converges
+              seamlessly
             </span>
           </Fragment>
         }
