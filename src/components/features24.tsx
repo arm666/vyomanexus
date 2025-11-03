@@ -130,15 +130,15 @@ Features24.defaultProps = {
   feature3Description: undefined,
   feature3Title: undefined,
   feature3ImgSrc:
-    "https://images.unsplash.com/photo-1739843428282-b6559613b735?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2OHw&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.unsplash.com/photo-1639755507638-e34150b56db2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2OHw&ixlib=rb-4.1.0&q=80&w=1080",
   feature1ImgSrc:
-    "https://images.unsplash.com/photo-1649451844952-5a6a1b221f7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2OHw&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.unsplash.com/photo-1650043996692-a51e3d749766?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2OHw&ixlib=rb-4.1.0&q=80&w=1080",
   feature2Description: undefined,
   feature1Title: undefined,
   feature3ImgAlt: "Software Development Image",
   feature1Description: undefined,
   feature2ImgSrc:
-    "https://images.unsplash.com/photo-1694628855279-46a49fd6a704?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2OXw&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.unsplash.com/photo-1592318348310-f31b61a931c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjA3MTM2OXw&ixlib=rb-4.1.0&q=80&w=1080",
   feature2ImgAlt: "Power Systems Image",
   feature2Title: undefined,
 };

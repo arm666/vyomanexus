@@ -17,11 +17,11 @@ const Steps2 = (props: Props) => {
               superior performance, unmatched reliability, and an exceptional
               user experience.
             </p>
-            <div className="steps2-actions">
+            {/* <div className="steps2-actions">
               <button className="thq-button-animated thq-button-filled steps2-button">
                 <span className="thq-body-small">Main action</span>
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="steps2-container3">
             <div className="steps2-container4 thq-card">

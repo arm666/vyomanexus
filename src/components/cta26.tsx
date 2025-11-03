@@ -31,10 +31,7 @@ const CTA26 = (props: Props) => {
                 </p>
               </div>
               <div className="cta26-actions">
-                <button
-                  type="button"
-                  className="thq-button-filled cta26-button"
-                >
+                <a href="#contact" className="thq-button-filled cta26-button">
                   <span>
                     {props.action1 ?? (
                       <Fragment>
@@ -42,7 +39,7 @@ const CTA26 = (props: Props) => {
                       </Fragment>
                     )}
                   </span>
-                </button>
+                </a>
               </div>
             </div>
           </div>
