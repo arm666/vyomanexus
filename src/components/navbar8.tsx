@@ -77,7 +77,7 @@ const Navbar8 = (props: Props) => {
             </div>
           </nav>
           <div className="navbar8-buttons1">
-            <button className="navbar8-action11 thq-button-animated thq-button-filled">
+            {/* <button className="navbar8-action11 thq-button-animated thq-button-filled">
               <span>
                 {props.action1 ?? (
                   <Fragment>
@@ -85,7 +85,7 @@ const Navbar8 = (props: Props) => {
                   </Fragment>
                 )}
               </span>
-            </button>
+            </button> */}
             {/* <button className="navbar8-action21 thq-button-outline thq-button-animated">
               <span>
                 {props.action2 ?? (
