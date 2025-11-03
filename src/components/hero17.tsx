@@ -33,8 +33,8 @@ const Hero17 = (props: Props) => {
             )}
           </p>
         </div>
-        <div className="hero17-actions">
-          <button className="thq-button-filled hero17-button1">
+        {/* <div className="hero17-actions"> */}
+        {/* <button className="thq-button-filled hero17-button1">
             <span className="thq-body-small">
               {props.action1 ?? (
                 <Fragment>
@@ -42,8 +42,8 @@ const Hero17 = (props: Props) => {
                 </Fragment>
               )}
             </span>
-          </button>
-          <button className="thq-button-outline hero17-button2">
+          </button> */}
+        {/* <button className="thq-button-outline hero17-button2">
             <span className="thq-body-small">
               {props.action2 ?? (
                 <Fragment>
@@ -51,8 +51,8 @@ const Hero17 = (props: Props) => {
                 </Fragment>
               )}
             </span>
-          </button>
-        </div>
+          </button> */}
+        {/* </div> */}
       </div>
       <div className="hero17-content2">
         <div className="hero17-row-container1 thq-animated-group-container-horizontal thq-mask-image-horizontal">
